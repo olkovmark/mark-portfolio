@@ -1,0 +1,18 @@
+@import "./reset.css";
+@import "./variables.css";
+
+* {
+  font-family: "DM Sans", sans-serif;
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 60px;
+}
+strong {
+  color: var(--orange);
+}
+h2 {
+  font-size: 40px;
+}
+
