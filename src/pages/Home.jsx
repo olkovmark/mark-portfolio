@@ -1,5 +1,8 @@
 import React from "react";
+import { ProjectCard } from "../components/ProjectCard";
 import "../css/Home.css";
+import { Project } from "../models/Project";
+import { projects } from "../settings/variables.js";
 
 const rotate = [0, 10, 20, 30, 40];
 
@@ -26,16 +29,16 @@ export const Home = () => {
           ></div>
         ))}
       </header>
-      <main className="ProjectsList">
-        <h1>Projects</h1>
-        <ul>
-          <section className="Project">sdasd</section>
-          <section className="Project">sdasd</section>
-          <section className="Project">sdasd</section>
-          <section className="Project">sdasd</section>
-          <section className="Project">sdasd</section>
-          <section className="Project">sdasd</section>
-        </ul>
+
+      <main className="projects">
+        <div className="projects-conteiner">
+          <h1>Projects</h1>
+          <div className="projects-list">
+            {projects.map((project, i) => (
+              <ProjectCard project={project} key={i}></ProjectCard>
+            ))}
+          </div>
+        </div>
       </main>
       <footer></footer>
     </div>

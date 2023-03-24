@@ -12,10 +12,10 @@ export const NavBar = () => {
             <a href="/home">Home</a>
           </li>
           <li>
-            <a href="/skils"> Skils</a>
+            <a href="/Projects"> Projects</a>
           </li>
           <li>
-            <a href="/project">Contacs</a>
+            <a href="/contacs">Contacs</a>
           </li>
         </ul>
       </nav>

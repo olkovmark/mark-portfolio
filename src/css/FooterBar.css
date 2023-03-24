@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  margin: 20px 0;
+}
+
+.social {
+  padding: 30px;
+  display: flex;
+  column-gap: 30px;
+}

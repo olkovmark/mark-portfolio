@@ -5,6 +5,9 @@
   font-family: "DM Sans", sans-serif;
   color: aliceblue;
 }
+body {
+  background-color: #171718;
+}
 
 h1 {
   font-size: 60px;
@@ -15,4 +18,3 @@ strong {
 h2 {
   font-size: 40px;
 }
-
