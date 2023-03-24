@@ -1,7 +1,6 @@
 import React from "react";
 import { ProjectCard } from "../components/ProjectCard";
 import "../css/Home.css";
-import { Project } from "../models/Project";
 import { projects } from "../settings/variables.js";
 
 const rotate = [0, 10, 20, 30, 40];
