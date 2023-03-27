@@ -2,13 +2,10 @@ import { Project } from "../models/Project";
 
 export const projects = [
   new Project(
-    "project-01.jpg",
-    "Gaming streaming portal",
-    "Skills: React, Node.js, MongoDB"
-  ),
-  new Project(
-    "project-01.jpg",
-    "Gaming streaming portal",
-    "Skills: React, Node.js, MongoDB"
+    "2048.png",
+    "2048",
+    "JavaScript native",
+    "https://olkovmark.github.io/2048/",
+    "2048 game Creating for funs"
   ),
 ];
