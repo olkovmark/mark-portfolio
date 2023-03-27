@@ -6,6 +6,7 @@
   color: aliceblue;
 }
 body {
+  max-width: 100%;
   background-color: #171718;
 }
 
@@ -17,4 +18,19 @@ strong {
 }
 h2 {
   font-size: 40px;
+}
+
+.fullproject-enter {
+  opacity: 0;
+}
+.fullproject-enter-active {
+  opacity: 1;
+  transition: opacity 700ms;
+}
+.fullproject-exit {
+  opacity: 1;
+}
+.fullproject-exit-active {
+  opacity: 0;
+  transition: opacity 700ms;
 }

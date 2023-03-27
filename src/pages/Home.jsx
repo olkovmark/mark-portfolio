@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { ProjectCard } from "../components/ProjectCard";
+import { ProjectFull } from "../components/ProjectFull";
 import "../css/Home.css";
 import { projects } from "../settings/variables.js";
 
 const rotate = [0, 10, 20, 30, 40];
-
+let selectedProjet = projects[0];
 export const Home = () => {
+  const [isOpenProject, setIsOpenProject] = useState(false);
   return (
     <div>
       <header className="main-header">
@@ -17,9 +19,10 @@ export const Home = () => {
           <p>with passion for learning and creating.</p>
         </div>
 
-        <a href="/documents/MarkEng.docs" download>
-          Download CV
+        <a href={require("../documents/MarkEng.pdf")} target="__blanc">
+          Open CV
         </a>
+
         {rotate.map((r) => (
           <div
             key={r}
@@ -31,17 +34,28 @@ export const Home = () => {
 
       <main className="projects">
         <div className="projects-conteiner">
-          <h1>Projects</h1>
+          <h1 className="title">Projects</h1>
           <div className="projects-list">
             {projects.map((project, i) => (
-              <ProjectCard project={project} key={i}></ProjectCard>
+              <ProjectCard project={project} key={i} click={clickProject} />
             ))}
           </div>
         </div>
       </main>
+
+      <ProjectFull
+        project={selectedProjet}
+        setIsOpenProject={setIsOpenProject}
+        visible={isOpenProject}
+      />
       <footer></footer>
     </div>
   );
+
+  function clickProject(e) {
+    selectedProjet = e;
+    setIsOpenProject(true);
+  }
 };
 
 export default Home;

@@ -11,12 +11,8 @@ export const NavBar = () => {
           <li>
             <a href="/home">Home</a>
           </li>
-          <li>
-            <a href="/Projects"> Projects</a>
-          </li>
-          <li>
-            <a href="/contacs">Contacs</a>
-          </li>
+          <li>{/* <a href="/Projects"> Projects</a> */}</li>
+          <li>{/* <a href="/contacs">Contacs</a> */}</li>
         </ul>
       </nav>
     </div>

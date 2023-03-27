@@ -1,11 +1,11 @@
 import React from "react";
-import "../css/Card.css";
+import cs from "../css/Card.module.css";
 
-export const ProjectCard = ({ project }) => {
+export const ProjectCard = ({ project, click }) => {
   return (
-    <section className="card">
+    <div className={cs.card} onClick={() => click(project)}>
       <img src={require(`../img/projects/${project.imgUrl}`)} alt="" />
-      <p>{project.name}</p>
-    </section>
+      <p className="card_p">{project.name}</p>
+    </div>
   );
 };
