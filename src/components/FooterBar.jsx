@@ -11,16 +11,24 @@ export const FooterBar = () => {
         <a
           href="https://www.linkedin.com/in/mark-olkov-b88b68246"
           className="social-icon"
+          target="_blank"
+          rel="noreferrer"
         >
           <img src={linkedIn} alt="" />
         </a>
-        <a href="https://github.com/olkovmark" className="social-icon">
+        <a
+          href="https://github.com/olkovmark"
+          className="social-icon"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={gitHub} alt="" />
         </a>
         <a
           href="https://instagram.com/olkovmark?igshid=ZDdkNTZiNTM= "
           className="social-icon"
           target="_blank"
+          rel="noreferrer"
         >
           <img src={instagram} alt="" />
         </a>

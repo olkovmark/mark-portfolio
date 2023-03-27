@@ -19,7 +19,11 @@ export const Home = () => {
           <p>with passion for learning and creating.</p>
         </div>
 
-        <a href={require("../documents/MarkEng.pdf")} target="__blanc">
+        <a
+          href={require("../documents/MarkEng.pdf")}
+          target="_blank"
+          rel="noreferrer"
+        >
           Open CV
         </a>
 
