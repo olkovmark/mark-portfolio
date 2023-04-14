@@ -8,4 +8,11 @@ export const projects = [
     "https://olkovmark.github.io/2048/",
     "2048 game Creating for funs"
   ),
+  new Project(
+    "cloud.png",
+    "Disk-Cloud",
+    "React Redux ExpressJS MongoDB",
+    "https://github.com/olkovmark/DiskCloud.git",
+    ""
+  ),
 ];
