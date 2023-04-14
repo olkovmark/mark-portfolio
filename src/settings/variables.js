@@ -15,4 +15,11 @@ export const projects = [
     "https://github.com/olkovmark/DiskCloud.git",
     ""
   ),
+  new Project(
+    "portfolio.png",
+    "Portfolio",
+    "React",
+    "https://github.com/olkovmark/mark-portfolio.git",
+    ""
+  ),
 ];
