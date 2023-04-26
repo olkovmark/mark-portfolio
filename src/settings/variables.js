@@ -2,6 +2,13 @@ import { Project } from "../models/Project";
 
 export const projects = [
   new Project(
+    "TelegramBot.png",
+    "TelegramBot with ChatGPT",
+    "NodeJS Telegram-Api Openai-Api",
+    "https://github.com/olkovmark/TelegramGPTbot/",
+    ""
+  ),
+  new Project(
     "2048.png",
     "2048",
     "JavaScript native",
