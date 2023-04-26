@@ -3,7 +3,7 @@ import { ProjectCard } from "../components/ProjectCard";
 import { ProjectFull } from "../components/ProjectFull";
 import "../css/Home.css";
 import { projects } from "../settings/variables.js";
-
+//
 const rotate = [0, 10, 20, 30, 40];
 let selectedProjet = projects[0];
 export const Home = () => {
