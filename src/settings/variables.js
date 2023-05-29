@@ -2,6 +2,13 @@ import { Project } from "../models/Project";
 
 export const projects = [
   new Project(
+    "Iconic.png",
+    "Pet Iconic",
+    "HTML SCSS",
+    "https://olkovmark.github.io/pet_iconic/#",
+    ""
+  ),
+  new Project(
     "TelegramBot.png",
     "TelegramBot with ChatGPT",
     "NodeJS Telegram-Api Openai-Api",
