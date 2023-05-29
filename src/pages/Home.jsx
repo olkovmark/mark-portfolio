@@ -32,7 +32,7 @@ export const Home = () => {
             key={r}
             style={{ transform: `rotate(${r - 70}deg)` }}
             className="box"
-          ></div>
+          />
         ))}
       </header>
 
@@ -52,7 +52,7 @@ export const Home = () => {
         setIsOpenProject={setIsOpenProject}
         visible={isOpenProject}
       />
-      <footer></footer>
+      <footer />
     </div>
   );
 
